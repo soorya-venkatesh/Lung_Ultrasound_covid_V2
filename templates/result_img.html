@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Automated Lung Ultrasound</title>
+  <h1 class="intro">Automated Lung Ultrasound</h1>
+  <h4 class="intro1" style="left: 740px">A COVID-19 Initiative </h4>
+  <link rel="stylesheet" type="text/css" href="../static/style_img.css">
+</head>
+
+
+<div class="main">
+	<body>
+	  <img src= "../static/image.JPG" alt=".." class="left" align="left" style="height:100%;width:auto;position:absolute;top:10px" >	
+	  
+	  <h2 class="t">Uploaded Image </h2>
+
+	  <img src= "{{image}}" alt=".." class="upload" style="width: 224px height:224px">
+
+
+	  <div class="bottom">
+	  	<h2 >Probability Scores:<br><br></h2>
+
+	  	<h2 >Viral Pneumonia: {{p0}} %<br><br></h2>
+	  	<h2 >Bacterial Pneumonia: {{p1}} %<br><br></h2>
+	  	<h2 >Normal: {{p2}} %<br><br></h2>
+	  </div>
+	  
+	  <form method=post class="submit" enctype=multipart/form-data>
+	  <input type=submit value="Try again">
+	  </form>
+
+	  <div class="last_right">
+	  	<h5>Developed By:</h5>
+	  	<h5>Dr. Mahesh R Panicker and Mr. Soorya V</h5>
+	  	<h5>Center for Computational Imaging, IIT Palakad</h5>
+	  	<h5>Contact: mahesh@iitpkd.ac.in</h5>
+	  </div>
+
+	  <div class="last_left">
+	  	<h5>Clinical Experts:</h5>
+	  	<h5>Dr. Yale Tung Chen, La Paz Hospital, Madrid, Spain</h5>
+	  	<h5>Prof. (Dr.) C Kesavadas, SCTIMST, Thiruvananthapuram, Kerala</h5>
+	  	<h5>Dr. Kiran Vishnu Narayan, Government Medical College, Kottayam</h5>
+	  </div>
+
+	</body>
+
+</div>
+
+</html>

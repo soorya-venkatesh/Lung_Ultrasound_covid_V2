@@ -1,0 +1,57 @@
+
+.intro{
+  position: absolute;
+  top: 0px;
+  right: 400px;
+  font-size: 3em;
+  background-color:;
+}
+
+.intro1{
+  position: relative;
+  top: 80px;
+  
+
+  font-size: 1em;
+}
+
+.upload{
+	  position: absolute;
+	  border: 1.5px solid gray;
+	  background-color:black;
+	  border-radius: 4px;
+	  padding: 5px;
+	  width: 224px;
+	  top:250px;
+	  left:425px;
+}
+
+.t{
+	position:absolute;
+	top:190px;
+	left:460px;
+
+}
+.bottom{
+	position:absolute;
+	top:200px;
+	left:1000px;	
+}
+.submit{
+	position: absolute;
+	top:48%;
+	left:52%;
+}
+.last_right{
+	position: absolute;
+	bottom:3px;
+	left:1000px;
+}
+.last_left{
+	position: absolute;
+	bottom:5px;
+	left:420px;
+}
+h5{
+	line-height: 1px;
+}
