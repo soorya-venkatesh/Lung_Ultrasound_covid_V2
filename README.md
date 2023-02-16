@@ -1,4 +1,4 @@
-#Covid sevearity classification from lung ultrasound images
+# Covid sevearity classification from lung ultrasound images
 <em><strong>Work done as a part of my research Internship at IIT Palakkad<em><strong>
 
 ## Realavant links: http://www.pulseecho.in/alus/
