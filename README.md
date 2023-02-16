@@ -5,5 +5,6 @@
 ## Demo Link: https://www.youtube.com/watch?v=43rewdi0Yiw&t=225s
 
 ## Description:
-* Developed and deployed a Neural network capable of classifying the internsity of covid-19 spread in a person into 5 classes  
+* Developed and deployed a Neural network capable of classifying the internsity of covid-19 spread in a person into 5 classes.
+* Achieved a balanced Test accuracy of 94% on unseen test data
 
